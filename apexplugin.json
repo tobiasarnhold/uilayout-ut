@@ -24,7 +24,7 @@
 			"versions": ["5.0.1"],
 			"plugin": {
 				"internalName": "COM.AAW.UILAYOUT_UT",
-				"type": "Dynamic Action",
+				"type": "dynamic action",
 				"demo": "https://apex.oracle.com/pls/apex/f?p=94253",
 				"previewImage": "http://4.bp.blogspot.com/-GW8uWzEbQGY/Vq_aMChiECI/AAAAAAAABX8/x1CD_AODDpQ/s1600/UILayout_with_the_navigation__left_and_right_bar.png"
 			}
