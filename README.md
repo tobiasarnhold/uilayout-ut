@@ -11,5 +11,4 @@ What you get is the power of the responsive "Universal Theme" including new movi
 Please refer to the documentation file: documentation.docx
 
 <h3>Demo</h3>
-Please check out the GIF movie getting some nice impressions and test the example application to see all possibilities.
-
+<a href="https://apex.oracle.com/pls/apex/f?p=94253" target="_blank">https://apex.oracle.com/pls/apex/f?p=94253</a>
