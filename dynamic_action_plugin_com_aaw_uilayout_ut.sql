@@ -425,13 +425,15 @@ wwv_flow_api.create_plugin(
 '<p>',
 '	Developed by Tobias Arnhold - http://apex-at-work.com/<br />',
 '	EMail: tobias-arnhold@hotmail.de</p>',
-'<p>',
+'<p>, Mahmoud',
 '	Based on the following jQuery Plugin: http://layout.jquery-dev.net/ (1.4.4)</p>',
 '<p>',
-'	License: This plug-in is dual-licensed under the GPL and MIT licenses.</p>'))
-,p_version_identifier=>'2.0.13'
+'	License: This plug-in is dual-licensed under the GPL and MIT licenses.</p>',
+'<p>',
+'	Thanks to all testers supporting me in creating this plugin: Jeffrey, Jürgen and Mahmoud.</p>'))
+,p_version_identifier=>'2.0.14'
 ,p_about_url=>'http://apex-at-work.com/'
-,p_files_version=>6
+,p_files_version=>7
 );
 wwv_flow_api.create_plugin_attribute(
  p_id=>wwv_flow_api.id(17184699041788661452)
@@ -807,6 +809,23 @@ wwv_flow_api.create_plugin_file(
 ,p_plugin_id=>wwv_flow_api.id(17184698754901636852)
 ,p_file_name=>'jquery.layout.css'
 ,p_mime_type=>'text/css'
+,p_file_charset=>'utf-8'
+,p_file_content=>wwv_flow_api.varchar2_to_blob(wwv_flow_api.g_varchar2_table)
+);
+end;
+/
+begin
+wwv_flow_api.g_varchar2_table := wwv_flow_api.empty_varchar2_table;
+wwv_flow_api.g_varchar2_table(1) := '766172206D794C61796F75743B0A76617220696E6E65724C61796F75743B';
+null;
+end;
+/
+begin
+wwv_flow_api.create_plugin_file(
+ p_id=>wwv_flow_api.id(26481080396097184)
+,p_plugin_id=>wwv_flow_api.id(17184698754901636852)
+,p_file_name=>'jquery.mylayout.js'
+,p_mime_type=>'application/javascript'
 ,p_file_charset=>'utf-8'
 ,p_file_content=>wwv_flow_api.varchar2_to_blob(wwv_flow_api.g_varchar2_table)
 );
@@ -2961,22 +2980,6 @@ wwv_flow_api.create_plugin_file(
 ,p_file_name=>'jquery.layout.js'
 ,p_mime_type=>'application/x-unknown'
 ,p_file_charset=>'utf-8'
-,p_file_content=>wwv_flow_api.varchar2_to_blob(wwv_flow_api.g_varchar2_table)
-);
-end;
-/
-begin
-wwv_flow_api.g_varchar2_table := wwv_flow_api.empty_varchar2_table;
-wwv_flow_api.g_varchar2_table(1) := '766172206D794C61796F75743B';
-null;
-end;
-/
-begin
-wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(17170677946623600797)
-,p_plugin_id=>wwv_flow_api.id(17184698754901636852)
-,p_file_name=>'jquery.mylayout.js'
-,p_mime_type=>'application/x-unknown'
 ,p_file_content=>wwv_flow_api.varchar2_to_blob(wwv_flow_api.g_varchar2_table)
 );
 end;
