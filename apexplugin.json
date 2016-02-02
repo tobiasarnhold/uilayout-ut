@@ -3,7 +3,7 @@
 	"version": "2.0",
 	"description": "This plugin takes the abilities of the jQuery UI Layout plug-in and brings in those features into the new APEX Universal Theme. What you get is the power of the responsive Universal Theme including new moving abilities to handle all kind of complex application features like toolbars, menus, help-panels, status bars more easily.",
 	"keywords": ["apex-at-work", "Plugin", "Apex", "UI Layout", "jQuery", "layout control", "Dynamic Action", "Universal Theme", "UT"],
-	"homepage": "https://github.com/MTAGRatingen/Quality-Assurance-Apex-Plug-In.git",
+	"homepage": "https://github.com/tobiasarnhold/uilayout-ut",
 	"bugs": {
 		"url": "www.apex-at-work.com",
 		"email": "tobias-arnhold@hotmail.de"
